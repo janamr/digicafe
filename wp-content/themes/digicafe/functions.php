@@ -120,6 +120,9 @@ add_action( 'widgets_init', 'digicafe_widgets_init' );
  * Enqueue scripts and styles.
  */
 function digicafe_scripts() {
+	// enqueue google fonts: source sans pro & PT Serif
+	wp_enqueue_style('digicafe-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:400,400i,600');
+
 	wp_enqueue_style( 'digicafe-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'digicafe-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
