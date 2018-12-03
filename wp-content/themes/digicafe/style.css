@@ -983,3 +983,30 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*
+my added code
+................................................
+*/
+
+body {
+	background-color: #d5d4d6
+}
+
+
+
+a,
+a:visited {
+	color: #714c2d;
+}
+
+.main-navigation a {
+	background-color: #e77e51;
+	color: #d5d4d6;
+	padding: 5px;
+}
+
+.site-branding {
+	background-color: #e77e51;
+	padding: 80px;
+}
